@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Yahoo App Test Automation Suite]" guice-stage="DEVELOPMENT">
+  <test name="Yahoo App Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="emailId" value="sharmi_13reddy@yahoo.co.in"/>
+    <parameter name="url" value="https://login.yahoo.com/"/>
+    <classes>
+      <class name="com.parameters.ParametersTest">
+        <methods>
+          <include name="yahooLoginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.parameters.ParametersTest -->
+    </classes>
+  </test> <!-- Yahoo App Test(failed) -->
+</suite> <!-- Failed suite [Yahoo App Test Automation Suite] -->

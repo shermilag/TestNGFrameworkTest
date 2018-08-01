@@ -1,0 +1,16 @@
+TestNG - unit test framework
+
+TDD - Test Driven Development
+
+purpose - design test cases in a systematic way
+---hmtl reports
+-----diff annotations
+-priority/sequence
+-dependency
+-grouping
+-@data provider
+-@parameters
+
+
+
+
